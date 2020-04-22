@@ -296,101 +296,101 @@ public class Calculator extends javax.swing.JFrame {
     }// </editor-fold>                        
 
     private void jBtn3ActionPerformed(java.awt.event.ActionEvent evt) {                                      
-        // TODO add your handling code here:
+       
         String EnterNumber = jTxtDisplay.getText() + jBtn3.getText();
         jTxtDisplay.setText(EnterNumber);
     }                                     
 
     private void jBtn2ActionPerformed(java.awt.event.ActionEvent evt) {                                      
-        // TODO add your handling code here:
+       
         String EnterNumber = jTxtDisplay.getText() + jBtn2.getText();
         jTxtDisplay.setText(EnterNumber);
     }                                     
 
     private void jBtn4ActionPerformed(java.awt.event.ActionEvent evt) {                                      
-        // TODO add your handling code here:
+       
         String EnterNumber = jTxtDisplay.getText() + jBtn4.getText();
         jTxtDisplay.setText(EnterNumber);
     }                                     
 
     private void jBtn1ActionPerformed(java.awt.event.ActionEvent evt) {                                      
-        // TODO add your handling code here:
+        
         String EnterNumber = jTxtDisplay.getText() + jBtn1.getText();
         jTxtDisplay.setText(EnterNumber);
     }                                     
 
     private void jBtn5ActionPerformed(java.awt.event.ActionEvent evt) {                                      
-        // TODO add your handling code here:
+    
         String EnterNumber = jTxtDisplay.getText() + jBtn5.getText();
         jTxtDisplay.setText(EnterNumber);
     }                                     
 
     private void jBtn6ActionPerformed(java.awt.event.ActionEvent evt) {                                      
-        // TODO add your handling code here:
+       
         String EnterNumber = jTxtDisplay.getText() + jBtn6.getText();
         jTxtDisplay.setText(EnterNumber);
     }                                     
 
     private void jBtn7ActionPerformed(java.awt.event.ActionEvent evt) {                                      
-        // TODO add your handling code here:
+        
         String EnterNumber = jTxtDisplay.getText() + jBtn7.getText();
         jTxtDisplay.setText(EnterNumber);
     }                                     
 
     private void jBtn8ActionPerformed(java.awt.event.ActionEvent evt) {                                      
-        // TODO add your handling code here:
+        
         String EnterNumber = jTxtDisplay.getText() + jBtn8.getText();
         jTxtDisplay.setText(EnterNumber);
     }                                     
 
     private void jBtn9ActionPerformed(java.awt.event.ActionEvent evt) {                                      
-        // TODO add your handling code here:
+      
         String EnterNumber = jTxtDisplay.getText() + jBtn9.getText();
         jTxtDisplay.setText(EnterNumber);
     }                                     
 
     private void jBtn0ActionPerformed(java.awt.event.ActionEvent evt) {                                      
-        // TODO add your handling code here:
+       
         String EnterNumber = jTxtDisplay.getText() + jBtn0.getText();
         jTxtDisplay.setText(EnterNumber);
     }                                     
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        // TODO add your handling code here:
+      
         firstNum = Double.parseDouble(jTxtDisplay.getText());
         jTxtDisplay.setText("");
         operation ="+";
     }                                        
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        // TODO add your handling code here:
+        
         firstNum = Double.parseDouble(jTxtDisplay.getText());
         jTxtDisplay.setText("");
         operation ="-";
     }                                        
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-        // TODO add your handling code here:
+       
         firstNum = Double.parseDouble(jTxtDisplay.getText());
         jTxtDisplay.setText("");
         operation ="*";
     }                                         
 
     private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-        // TODO add your handling code here:
+   
         firstNum = Double.parseDouble(jTxtDisplay.getText());
         jTxtDisplay.setText("");
         operation ="/";
     }                                         
 
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-        // TODO add your handling code here:
+    
         String EnterNumber = jTxtDisplay.getText() + jButton12.getText();
         jTxtDisplay.setText(EnterNumber);
     }                                         
 
     private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-        // TODO add your handling code here:
+       
         double ops = Double.parseDouble(String.valueOf(jTxtDisplay.getText()));
         ops = ops *(-1);
         jTxtDisplay.setText(String.valueOf(ops));
@@ -398,7 +398,7 @@ public class Calculator extends javax.swing.JFrame {
     }                                         
 
     private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-        // TODO add your handling code here:
+      
         String answer;
         secondNum = Double.parseDouble(jTxtDisplay.getText());
         
@@ -436,7 +436,7 @@ public class Calculator extends javax.swing.JFrame {
     }                                         
 
     private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-        // TODO add your handling code here:
+        
         jTxtDisplay.setText("");
     }                                         
 
